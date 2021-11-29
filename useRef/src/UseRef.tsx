@@ -6,6 +6,7 @@ const UseRef = () => {
 
   const submitForm = (e) => {
     e.preventDefault();
+    console.log(input_data);
     const name = input_data.current.value;
     name == "" ? alert("Plz fill the field") : setShow(true);
   };
